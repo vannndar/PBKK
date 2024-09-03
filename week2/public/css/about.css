@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(../img/Header.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(to top right,#ba1717,#1f0a05);
+}
+nav img{
+    width: 50px;
+}
+nav a{
+    text-decoration: none;
+    flex: 1;
+    text-align: left;
+}
+.nav_center{
+    flex: 1;
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.nav-links{
+    flex: 1;
+    max-width: 250px;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.nav-links ul li::after{
+    background: white;
+    content: '';
+    width: 0%;
+    height: 2px;
+    display: block;
+    margin: auto;
+    transition: 0.2s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+.name{
+    flex: 1;
+    color: white;
+    font-size: 60px;
+    font-weight: bolder;
+    position: relative;
+    padding-top: 140px;
+    /* top: 18%;
+    left: 15%; */
+    text-align: center;
+}
+.About{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    padding-top: 90px;
+    padding-bottom: 100px;
+}
+.About h1{
+    font-size: 50px;
+}
+.About h1::after{
+    background: red;
+    content: '';
+    width: 0%;
+    height: 4px;
+    display: block;
+    margin: auto;
+    transition: 0.2s;
+}
+.About h1:hover::after{
+    width: 10%;
+}
+.About p{
+    font-size: 25px;
+    padding: 20px;
+    text-align:justify;
+}
+.col{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.col-bayu{
+    font-size: 30px;
+    flex-basis: 210%;
+    background-image: linear-gradient(to top right,#ba1717,#1f0a05);
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 20px 10px;
+    margin-right: 10px;
+}
+.col-bayu:hover{
+    box-shadow:0px 0px 15px 0px #1f0a05;
+}
+.col-tda{
+    font-size: 30px;
+    flex-basis: 210%;
+    background-image: linear-gradient(to top left,#ba1717,#1f0a05);
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-left: 10px;
+    padding: 20px 10px;
+}
+.col-tda:hover{
+    box-shadow:0px 0px 20px 0px #1f0a05;
+}
+.vehicle{
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    padding-top: 90px;
+    padding-bottom: 100px;
+    background-color: rgb(123, 0, 0);
+    color: white;
+}
+.vehicle h1{
+    font-size: 50px;
+}
+.vehicle h2{
+    font-size: 35px;
+}
+.vehicle h3{
+    font-size: 30px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+
+}
+.row{
+    display: block;
+    justify-content: space-between;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.row img{
+    flex: 1;
+    width: 31%;
+    border-radius: 20px;
+    padding: 10px;
+    margin: auto;
+    transition: 0.2s;
+}
+.image img:hover{
+    width: 32%;
+    padding: 0px;
+}
+.row-vid{
+    display: flex;
+    justify-content:space-between;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.video{
+    flex: 1;
+    padding: 10px;
+}
+.video p{
+    font-size: 25px;
+    text-align: center;
+    font-weight: 700;
+    padding-top: 30px;
+}
+.part{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+.part h1{
+    padding-bottom: 30px;
+}
+table{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid white;
+    border-collapse: collapse;
+    table-layout: fixed;
+
+}
+td{
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+.youtube{
+    background-color: white;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.youtube p{
+    padding-bottom: 20px;
+}
+.join{
+    display: flex;
+}
+.join h1{
+    text-align: center;
+    font-size: 30px;
+    flex-basis: 40%;
+    margin-left: 30%;
+    color: white;
+    background-image: linear-gradient(to top right,#ba1717,#1f0a05);
+    border-radius: 10px;
+    box-sizing: border-box;
+}

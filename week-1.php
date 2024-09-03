@@ -6,7 +6,6 @@ abstract class Item {
     private $price;
     private $stockQuantity;
 
-    // konstruktor
     public function __construct($name, $brand, $price, $stockQuantity) {
         $this->name = $name;
         $this->brand = $brand;
@@ -46,7 +45,6 @@ abstract class Item {
         $this->stockQuantity = $stockQuantity;
     }
 
-    // Abstract method to be implemented by subclasses
     abstract public function getPhoneDetails();
 }
 
