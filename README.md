@@ -25,3 +25,14 @@ Pembuatan project laravel, navbar dan routing ke home, blog, dan contact.
   
 ![image](https://github.com/user-attachments/assets/b541c583-bc03-4096-b236-a799df8b91f5)
 ![image](https://github.com/user-attachments/assets/93049eab-c5d2-4293-b490-22b4e5607bc0)
+
+## week-5
+
+- Pemanfaatan fitur factories untuk mempermudah dalam mengisi data pada database secara otomatis
+- Mengubah bahasa pada faker menjadi id_ID
+- Membuat relation antara user dan post pada data dalam datanbase yang digenerate secara otomatis
+- Penambahan route "Articles by" dan "Articles in"
+- Pembuatan category dari artikel yang ada
+- Memanfaatkan fitur seeding pada laravel agar dapat dibuat bersamaan dengan migrasi
+
+![image](https://github.com/user-attachments/assets/b300167b-7ae2-48df-980d-1444a58aca49)
