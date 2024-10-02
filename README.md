@@ -36,3 +36,23 @@ Pembuatan project laravel, navbar dan routing ke home, blog, dan contact.
 - Memanfaatkan fitur seeding pada laravel agar dapat dibuat bersamaan dengan migrasi
 
 ![image](https://github.com/user-attachments/assets/b300167b-7ae2-48df-980d-1444a58aca49)
+
+## week-5
+
+- Memperbaiki query yang terlalu banyak dengan cara eager loading pada semua query yang ada
+- Mengantisipasi terjadinya lazy loading
+- Melakukan redesign ui pada posts dan post
+- Membuat system search pada posts, category, dan author
+- Mengatasi permasalahan search yang hanya dapat dilakukan sekali dengan method when
+- Menambahkan pagination pada posts
+- Memperbaiki sistem pagination agar dapat sejalan dengan metode search
+
+![image](https://github.com/user-attachments/assets/b32a88a1-82e0-496e-ac01-b23f3dbdab32)
+
+![image](https://github.com/user-attachments/assets/4fda31a4-6da2-4f33-a286-7cdf92e3d18a)
+
+![image](https://github.com/user-attachments/assets/ae83ac53-b116-470f-8a2a-77e124dfc942)
+
+
+
+
