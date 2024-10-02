@@ -18,20 +18,40 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        // \App\Models\User::factory(10)->create();
 
-        // \App\Models\User::factory()->create([
-        //     'name' => 'Test User',
-        //     'email' => 'test@example.com',
+        // User::create([
+        //     'name' => 'Thariq Ivan',
+        //     'username' => 'vans',
+        //     'email' => 'asd@asd.casd',
+        //     'email_verified_at' => now(),
+        //     'password' => Hash::make('password'),
+        //     'remember_token' => Str::random(10)
         // ]);
+        
+        // Category::create([
+        //     'name' => 'Personal',
+        //     'slug' => 'personal'
+        // ]);
+
+        // Post::create([
+        //     'title' => 'My First Post',
+        //     'author_id' => 1,
+        //     'category_id' => 1,
+        //     'slug' => 'my-first-post',
+        //     'body' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.',
+        // ]);
+
+        // Post::factory(50)->create();
 
         $this->call([
             CategorySeeder::class,
             UserSeeder::class,
         ]);
-        Post::factory(100)->recycle([
+     
+        Post::factory(150)->recycle([
             Category::all(),
             User::all()
         ])->create();
     }
 }
+
